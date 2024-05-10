@@ -1,0 +1,52 @@
+.navbar-container {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.website-logo {
+  width: 30%;
+  margin-left: 15px;
+}
+.score-timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.score-heading {
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+}
+.score-count {
+  color: #fec653;
+  margin-left: 4px;
+}
+.timer-img {
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+.timer {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #fec653;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 15%;
+  }
+  .score-heading {
+    font-size: 20px;
+  }
+
+  .timer {
+    font-size: 20px;
+    width: 60px;
+  }
+}

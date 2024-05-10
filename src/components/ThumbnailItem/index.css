@@ -1,0 +1,22 @@
+.thumbnail-card {
+  height: 80px;
+  width: 80px;
+  margin: 6px;
+}
+.thumbnail-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+}
+.thumbnail-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-card {
+    height: 110px;
+    width: 110px;
+  }
+}
